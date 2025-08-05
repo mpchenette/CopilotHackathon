@@ -1,0 +1,35 @@
+MEMORY GAME - GAME STARTUP
+==================================================
+
+$ python console_memory_game.py
+
+==================================================
+    🃏 MEMORY GAME - COUNTRIES THEME 🃏
+==================================================
+
+Welcome to the Memory Game!
+Match pairs of countries to win.
+Country data is themed around flags from flagsapi.com
+
+Testing connection to flagsapi.com...
+⚠️  API connection failed, but game will still work with country names.
+Error: HTTPSConnectionPool(host='flagsapi.com', port=443): Max retries exceeded with url: /US/flat/64.png (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f207cd5aab0>: Failed to resolve 'flagsapi.com' ([Errno -3] Temporary failure in name resolution)"))
+
+Game Settings:
+--------------------
+Choose grid size:
+1. 4x4 (16 cards)
+2. 6x6 (36 cards)
+3. 8x8 (64 cards)
+Enter choice (1-3): 1
+
+Choose number of players:
+1. Single Player
+2. Two Players
+Enter choice (1-2): 1
+
+Starting 4x4 game with 1 player(s)!
+Enter coordinates as 'row column' (e.g., '2 3')
+Type 'quit' to exit the game.
+
+Press Enter to start...
