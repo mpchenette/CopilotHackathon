@@ -1,0 +1,21 @@
+MEMORY GAME - FIRST CARD REVEALED
+==================================================
+
+==================================================
+    🃏 MEMORY GAME - COUNTRIES THEME 🃏
+==================================================
+
+
+Grid Size: 4x4
+Pairs Found: 0
+
+      1   2   3   4
+ 1  ITA   ?   ?   ?
+ 2    ?   ?   ?   ?
+ 3    ?   ?   ?   ?
+ 4    ?   ?   ?   ?
+
+First card: Italy
+
+Choose second card:
+enter row and column (e.g., '2 3') or 'quit':

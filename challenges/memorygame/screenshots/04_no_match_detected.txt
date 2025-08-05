@@ -1,0 +1,23 @@
+MEMORY GAME - BOTH CARDS REVEALED (NO MATCH)
+==================================================
+
+==================================================
+    🃏 MEMORY GAME - COUNTRIES THEME 🃏
+==================================================
+
+
+Grid Size: 4x4
+Pairs Found: 0
+
+      1   2   3   4
+ 1  ITA   ?   ?   ?
+ 2    ?   ? ARG   ?
+ 3    ?   ?   ?   ?
+ 4    ?   ?   ?   ?
+
+First card: Italy
+Second card: Argentina
+
+❌ No match. Cards will be hidden again.
+
+Press Enter to continue...

@@ -20,6 +20,92 @@ A Python-based memory card matching game using country data from flagsapi.com.
    - In 2-player mode, turns alternate unless you find a match
 4. **Winning**: Match all pairs to win the game!
 
+## Screenshots
+
+### Game Startup
+The game begins with a configuration screen where you select grid size and number of players:
+
+```
+==================================================
+    🃏 MEMORY GAME - COUNTRIES THEME 🃏
+==================================================
+
+Welcome to the Memory Game!
+Match pairs of countries to win.
+Country data is themed around flags from flagsapi.com
+
+Game Settings:
+--------------------
+Choose grid size:
+1. 4x4 (16 cards)
+2. 6x6 (36 cards)
+3. 8x8 (64 cards)
+Enter choice (1-3): 1
+
+Choose number of players:
+1. Single Player
+2. Two Players
+Enter choice (1-2): 1
+```
+
+### Initial Game Board
+All cards start hidden, represented by "?" symbols:
+
+```
+Grid Size: 4x4
+Pairs Found: 0
+
+      1   2   3   4
+ 1    ?   ?   ?   ?
+ 2    ?   ?   ?   ?
+ 3    ?   ?   ?   ?
+ 4    ?   ?   ?   ?
+
+Choose first card:
+enter row and column (e.g., '2 3') or 'quit':
+```
+
+### Card Reveal and Matching
+When you select cards, they reveal country codes (ITA for Italy, ARG for Argentina, etc.):
+
+```
+Grid Size: 4x4
+Pairs Found: 0
+
+      1   2   3   4
+ 1  ITA   ?   ?   ?
+ 2    ?   ? ARG   ?
+ 3    ?   ?   ?   ?
+ 4    ?   ?   ?   ?
+
+First card: Italy
+Second card: Argentina
+
+❌ No match. Cards will be hidden again.
+```
+
+### Demo Mode
+Run `python demo.py` to see an automated demonstration of the game features:
+
+```
+🚀 Memory Game Demo - Countries Theme
+==================================================
+
+🎮 Game Setup Demo
+------------------------------
+Available grid sizes:
+   4x4 (16 cards, 8 pairs)
+   6x6 (36 cards, 18 pairs)
+   8x8 (64 cards, 32 pairs)
+
+🌐 API Integration Features
+------------------------------
+flagsapi.com provides:
+   📍 Country flag images
+   🏷️  Standard country codes (ISO 3166-1)
+   🖼️  Multiple flag formats and sizes
+```
+
 ## Installation & Running
 
 ### Prerequisites
